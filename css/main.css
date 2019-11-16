@@ -20,7 +20,14 @@ header{
 
 nav{
   font-size: 1.125rem;
+}
 
+a{
+  background-color: #b2a212;
+  padding:.2em .5em .3em;
+  display: inline-block;
+  border-radius: 4px;
+  text-decoration: none;
 }
 p{
   padding: .2em .5em .3em;
@@ -33,4 +40,9 @@ footer{
   background-color: #ffe500;
   padding: .75em;
   text-align: center;
+  font-size: .75rem;
+}
+
+img{
+  width: 100%;
 }
