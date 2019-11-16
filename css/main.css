@@ -8,3 +8,12 @@ h1 {
   line-height: 1.5;
   padding: 0 .75em, .75em;
 }
+
+*,* ::before, *::after{
+  box-sizing: inherit;
+}
+
+header{
+  background-color: #ffe500;
+  text-align: center;
+}
