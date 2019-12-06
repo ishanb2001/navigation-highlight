@@ -7,6 +7,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin: 0;
+  background-color: #fff;
 }
 
 h1 {
@@ -54,7 +55,7 @@ footer{
   padding: .75em;
   margin: 0;
   text-align: center;
-  font-size: .75rem;
+  font-size: 1rem;
   margin-top: 0em;
   height: 48px;
 }
