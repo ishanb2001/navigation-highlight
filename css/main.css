@@ -18,7 +18,7 @@ h1 {
   max-width: 100%;
   font-size: 3rem;
   margin: 0;
-  margin-bottom: 0.1em;
+  margin-bottom: -.40em;
 }
 
 *,* ::before, *::after{
@@ -43,7 +43,7 @@ a{
 }
 
 p{
-  padding: .2em .5em .3em;
+  padding: 0 .75em;
   font-family: georgia, serif;
   color: #2f2d13;
 
@@ -56,10 +56,12 @@ footer{
   text-align: center;
   font-size: .75rem;
   margin-top: 0em;
+  height: 48px;
 }
 
 img{
   width: 100%;
+  padding: 0 .75em;
   display: block;
 }
 
@@ -67,6 +69,12 @@ h2{
   font-family: "Sigmar One", "cursive";
   font-size: 1.875rem;
   color: #b20953;
+  padding: 0 .75em;
+  margin-left: -0.33em;
+}
+
+.current{
+  background-color: #cc1465;
 }
 
 a:hover {
