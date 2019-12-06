@@ -1,11 +1,9 @@
-html{
+html {
   box-sizing: border-box;
   line-height: 1.5;
 }
 
 body {
-  margin-left: auto;
-  margin-right: auto;
   margin: 0;
   background-color: #fff;
 }
@@ -13,26 +11,32 @@ body {
 h1 {
   text-align: center;
   background-color: #ffe500;
-  font-family: "Sigmar One", "cursive";
-  font-weight:900;
+  font-family: "Sigmar One";
+  font-weight: 900;
   color: #b20953;
   max-width: 100%;
   font-size: 3rem;
   margin: 0;
-  margin-bottom: -.40em;
+  margin-bottom: -.4em;
 }
 
-*,* ::before, *::after{
+*,* ::before, *::after {
   box-sizing: inherit;
 }
 
-header{
+
+header {
   background-color: #ffe500;
   text-align: center;
   box-sizing: border-box;
 }
 
-a{
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
   background-color: #b2a212;
   padding: .2em .5em .3em;
   display: inline-block;
@@ -40,41 +44,46 @@ a{
   text-decoration: none;
   font-size: 1.125rem;
   color: #fff;
-  margin-bottom: 0.3em;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
-p{
+p {
   padding: 0 .75em;
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
   color: #2f2d13;
+  line-height: 1.5;
 
 }
 
-footer{
+ul {
+  padding-left: 0;
+}
+
+footer {
   background-color: #ffe500;
   padding: .75em;
   margin: 0;
   text-align: center;
   font-size: 1rem;
-  margin-top: 0em;
   height: 48px;
 }
 
-img{
+img {
   width: 100%;
   padding: 0 .75em;
   display: block;
 }
 
-h2{
-  font-family: "Sigmar One", "cursive";
+h2 {
+  font-family: "Sigmar One";
   font-size: 1.875rem;
   color: #b20953;
   padding: 0 .75em;
-  margin-left: -0.33em;
+  margin-left: -.33em;
 }
 
-.current{
+.current {
   background-color: #cc1465;
 }
 
@@ -82,3 +91,4 @@ a:hover {
   background-color: #cc1465;
   border-radius: 4px;
   color: #fff;
+}
