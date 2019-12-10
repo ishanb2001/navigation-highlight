@@ -87,8 +87,6 @@ h2 {
   background-color: #cc1465;
 }
 
-a:hover {
+a:hover{
   background-color: #cc1465;
-  border-radius: 4px;
-  color: #fff;
 }
